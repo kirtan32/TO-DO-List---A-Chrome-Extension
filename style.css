@@ -1,0 +1,177 @@
+body{
+    width: 350px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    justify-content: center
+}
+
+.container {
+    border: 3px;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.title{
+    width: 200px;
+    color: black;
+    display: inline-block;
+}
+.clear{
+    position: absolute;
+    top: 55px;
+    left: 270px;
+    outline:none;
+    height: 30px;
+    text-align: center;
+    width: 60px;
+    border-radius:20px;
+    background:#000000;
+    border: 3px solid black;
+    color: #0000ff;
+    letter-spacing:1px;
+    text-shadow:0;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.25s ease;
+    
+}
+.clear:active{
+    letter-spacing: 3px ;
+}
+
+.button{
+    outline:none;
+    height: 30px;
+    text-align: center;
+    width: 80px;
+    border-radius:20px;
+    background:#ffffff;
+    border: 3px solid #000000;
+    color:#000000;
+    letter-spacing:1px;
+    text-shadow:0;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.25s ease;
+    
+}
+
+.button:active{
+    letter-spacing: 4px ;
+}
+
+.task{
+    height: 25px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    background: #ffffff;
+    color: black;
+    cursor: text;
+    outline: none;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.dateClass {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+}
+
+.date{
+    color: #000000;
+}
+
+.theme{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+.theme1{
+    width: 20px;
+    height: 20px;
+    border: 3px;
+    border-radius: 20px;
+    background: white;
+    border-style: solid;
+    border-color: gray;
+    
+    outline: none;
+    cursor: pointer;
+}
+.theme1:hover, .theme2:hover, .date:hover{
+    border-color: cyan;
+}
+.theme2{
+    width: 20px;
+    height: 20px;
+    border: 3px;
+    border-radius: 20px;
+    background: black;
+    border-style: solid;
+    border-color:gray;
+    
+    outline: none;
+    cursor: pointer;
+}
+.todos{
+    margin-bottom: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+.table{
+    width: 97%;
+    margin-top: 10px;
+    margin-left: 4px; 
+    font-weight: bold;
+    font-size: 15px;
+}
+
+table {
+    border-collapse: collapse;
+}
+  
+tr { 
+    border-style: dashed;
+    border-width: 1px;
+    border-left: none;
+    border-right: none;
+}
+tr:first-child {
+    border-top: none;
+  }
+  tr:last-child {
+    border-bottom: none;
+  }
+
+.td1{
+    width: 8%;
+    text-align: center;
+    color: magenta;
+}
+.td21{
+    width: 80%;
+    text-align: left;
+}
+.td22{
+    width: 80%;
+    text-align: left;
+}
+
+.td3{
+    width: 8%;
+}
+
+.striped-border { 
+    border: 2px dashed #000; 
+    width: 50%; 
+    margin: auto; 
+    margin-top: 5%; 
+    margin-bottom: 5%; 
+}
